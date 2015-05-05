@@ -1,4 +1,4 @@
-VROOM-CanReadWriter
+UWCenterStack-CanReadWriter
 ============================
 NOTE: This repository only builds on Ubuntu that has Kvaser canlib installed and
 is designed for use with the Kvaser usbCAN II HS/SWC module.
@@ -13,14 +13,14 @@ Instructions for installing Kvaser canlib: http://www.kvaser.com/support/knowled
 
 ## Installation
 ```
-npm install VROOM-canreadwriter
+npm install uwcenterstack-canreadwriter
 ```
 
 ## Developer setup
 Add to `~/.bash_profile` (Mac) or `~/.bashrc` (Linux):
 ```
-export VROOM_CANREADWRITER_HOME=path/to/VROOM-CanReadWriter <-- REPLACE WITH CORRECT PATH!!!
-source $VROOM_CANREADWRITER_HOME/shellCommands.sh
+export UWCENTERSTACK_CANREADWRITER_HOME=path/to/UWCenterStack-CanReadWriter <-- REPLACE WITH CORRECT PATH!!!
+source $UWCENTERSTACK_CANREADWRITER_HOME/shellCommands.sh
 ```
 
 #### Compiling
