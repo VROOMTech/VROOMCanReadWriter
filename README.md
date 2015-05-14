@@ -11,10 +11,8 @@ sudo ln -s /usr/bin/nodejs /usr/bin/node
 ```
 Instructions for installing Kvaser canlib: http://www.kvaser.com/support/knowledge-base/?knowledge_base_category=getting-started#/driver-and-hardware-installation-for-linux
 
-## Installation
-```
-npm install VROOM-canreadwriter
-```
+NOTE: This is an altered version of uwcenterstack-canreadwriter
+
 
 ## Developer setup
 Add to `~/.bash_profile` (Mac) or `~/.bashrc` (Linux):
